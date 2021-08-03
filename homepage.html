@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    
-    <title>Home page</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="homepage.css">
     
 </head>
@@ -18,9 +18,9 @@
           <li><a href="location.html">Top Places to go</a></li>
           <li><a href="aboutus.html">About us</a></li>
           <li><a href="music.html">Top Music</a></li>
-          <li><a href="topanime.html"></a></li>
-      
-      
+          <li><a href="topanime.html">Top Anime</a></li>
+          <li><a href="topmanga.html">Top Manga</a></li>
+          <li><a href="Comedy.html"> Comedy</a></li>
         </ul>
         <br><br>
 
@@ -29,14 +29,14 @@
         <div align='center'>
 
           <h1>
-            hello
+            Hello
             <span id="homePageName"></span>,
-            welcome to top trends
+            Welcome To Top Trends
 
           </h1>
 
   <img src="https://th.bing.com/th/id/R.cef0d8e287593a7bda66d9ef825c7051?rik=v1KCR7749JriWw&pid=ImgRaw" width="40%">
-  <h1>Top locations</h1>
+  <h1>Top Locations</h1>
   <img src="https://th.bing.com/th/id/R.5edc6ea300396473a5107fa3e76bae6b?rik=C%2bmNUSXISiJSLg&pid=ImgRaw">
 
   <br>
@@ -65,25 +65,28 @@
           </select>
         
           <input type="submit" value="Submit">
-        </form>
-      </div>
-    </div>
-    </body>
-    </html>
-    
-  <script>
-    function get(){
-      document.getElementById("homePageName").innerHTML = localStorage.getItem('storedItem');;
-      setTimeout(function(){
-        document.getElementById('loader').style.display = 'none';
-        document.getElementById('body').style.backgroundImage = "url('https://cms-assets.tutsplus.com/uploads/users/107/posts/26488/image/41-space-scrolling-background850.jpg')";
-        document.getElementById('elements').style.display = 'block';
+        
+     
+          <script>
+            function get(){
+              document.getElementById("homePageName").innerHTML = localStorage.getItem('storedItem');;
+              setTimeout(function(){
+                document.getElementById('loader').style.display = 'none';
+                document.getElementById('body').style.backgroundImage = "url('https://wallpapercave.com/wp/wp2757881.gif')";
+                document.getElementById('elements').style.display = 'block';
+                document.getElementsById('body').style.backgroundSize = 'cover';
+        
+              }, 1000);
+            }
+        
+            
+          </script>
+          
+      
 
-      }, 1000);
-    }
 
-    
-  </script>
 
-</body>
+        </body>
 </html>
+
+
