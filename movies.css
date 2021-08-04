@@ -1,6 +1,9 @@
 h1 {
     background-color:black;
     color: red;
+    color: rgb(252, 252, 252);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(119, 119, 250), 0 0 5px darkblue;
+    display:inline-block;
 }
 body {
     background-image: url(https://cms-assets.tutsplus.com/uploads/users/107/posts/26488/image/41-space-scrolling-background850.jpg);

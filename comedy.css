@@ -1,36 +1,31 @@
-h1 {
-    background-color: black;
-    color: red;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-size: cover;
-}
 Body{
     background-image: url(https://68.media.tumblr.com/75b6803d9d1e84cfa2db697b9239c13e/tumblr_o71n52y9CX1uaundno1_500.gif);
     background-size: cover;
+    color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(119, 119, 250), 0 0 5px darkblue;
     }
     h2{
         color: rgb(255, 255, 255);
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(119, 119, 250), 0 0 5px darkblue;
     }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  li {
-    float: left;
-  }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
